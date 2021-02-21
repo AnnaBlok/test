@@ -1,0 +1,6 @@
+//SQL запрос
+
+SELECT Name, COUNT(AuthorID) as Books
+FROM BookAuthors
+GROUP BY Name
+HAVING SUM(AuthorID) <6;
