@@ -15,7 +15,7 @@ echo $numbers;
 
 2) Структура БД и SQL-запрос
 
-![картинка](https://github.com//AnnaBlok/test/blob/main/second/структура.png "структура")
+![картинка](https://github.com/AnnaBlok/test/blob/main/second/структура.png "структура")
 
 Запрос: 
 
@@ -27,7 +27,7 @@ HAVING SUM(AuthorID) <6;
 
 Чтобы было видно, что запрос работает, изменила условия
 
-![картинка](https://github.com//AnnaBlok/test/blob/main/second/sql.png)
+![картинка](https://github.com/AnnaBlok/test/blob/main/second/sql.png "запрос")
 
 3) Работа с классами
 
