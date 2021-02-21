@@ -31,27 +31,21 @@ HAVING SUM(AuthorID) <6;
 
 3) Работа с классами
 
-```<?php
+```
+<?php
 
 class Rectangle
 {
 	public $height, $width;
-
 	function square()
 	{
 		echo "Площадь данного прямоугольника: " . ($this->height * $this->width);
 	}
 }
 
-/*$rect = new Rectangle;
-$rect->height=10;
-$rect->width=2;
-/*$rect->square();*/
-
 class Circle
 {
 	public $radius;
-
 	function square()
 	{
         $sq = pi() * pow(($this->radius), 2);
@@ -62,7 +56,6 @@ class Circle
 class Triangle
 {
 	public $height, $base;
-
 	function square()
 	{
 		echo "Площадь данного треугольника: " . (1 / 2 * $this->base * $this->height);
@@ -97,7 +90,6 @@ function randomFigureSquare()
 		}
 		}
 	}
-
 $randomFigureData = randomFigureSquare();
 ```
 последнюю задачу (пункт 3 задания 3) реализовать не удалось, т.к. не получилось передать в переменную рандомно созданный объект (для решения задачи не хватило времени). в планах было реализовать решение с помощью функций serialize() и unserialize() (как указано ниже)
