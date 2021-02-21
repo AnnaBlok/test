@@ -3,22 +3,15 @@
 class Rectangle
 {
 	public $height, $width;
-
 	function square()
 	{
 		echo "Площадь данного прямоугольника: " . ($this->height * $this->width);
 	}
 }
 
-/*$rect = new Rectangle;
-$rect->height=10;
-$rect->width=2;
-/*$rect->square();*/
-
 class Circle
 {
 	public $radius;
-
 	function square()
 	{
         $sq = pi() * pow(($this->radius), 2);
@@ -29,7 +22,6 @@ class Circle
 class Triangle
 {
 	public $height, $base;
-
 	function square()
 	{
 		echo "Площадь данного треугольника: " . (1 / 2 * $this->base * $this->height);
