@@ -1,7 +1,8 @@
 Для удобства просмотра добавлю решения одним лонгридом и тут.
 
 1) Числа Фибоначчи
-<?php
+
+```<?php
 $fib = [0, 1];
 
 for($i = 1; $i < 64; $i++)
@@ -9,7 +10,7 @@ for($i = 1; $i < 64; $i++)
  
 $numbers = implode(",", $fib);
 echo $numbers;
-?>
+?>```
 
 2) Структура БД и SQL-запрос
 
@@ -17,12 +18,13 @@ echo $numbers;
 
 Запрос: 
 
-SELECT Name, COUNT(AuthorID) as Books
+```SELECT Name, COUNT(AuthorID) as Books
 FROM BookAuthors
 GROUP BY Name
-HAVING SUM(AuthorID) <6;
+HAVING SUM(AuthorID) <6;```
 
 Чтобы было видно, что запрос работает, изменила условия
+
 ![Image alt](https://github.com//AnnaBlok/test/blob/main/second/sql.png)
 
 3) Работа с классами
