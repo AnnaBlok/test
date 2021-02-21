@@ -10,7 +10,8 @@ for($i = 1; $i < 64; $i++)
  
 $numbers = implode(",", $fib);
 echo $numbers;
-?>```
+?>
+```
 
 2) Структура БД и SQL-запрос
 
@@ -21,7 +22,8 @@ echo $numbers;
 ```SELECT Name, COUNT(AuthorID) as Books
 FROM BookAuthors
 GROUP BY Name
-HAVING SUM(AuthorID) <6;```
+HAVING SUM(AuthorID) <6;
+```
 
 Чтобы было видно, что запрос работает, изменила условия
 
@@ -109,4 +111,5 @@ $data = file_get_contents("objects.txt");
 $dataUncompressed = unserialize($data);*/
 
 //Для решения задачи с сортировкой планировалось создать массив с объектами класса и использовать функцию krsort() 
-?>```
+?>
+```
