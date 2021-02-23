@@ -21,7 +21,7 @@ echo $numbers;
 ```SELECT Name, COUNT(AuthorID) as Books
 FROM BookAuthors
 GROUP BY Name
-HAVING SUM(AuthorID) <6;
+HAVING SUM(AuthorID) < 6;
 ```
 
 Чтобы было видно, что запрос работает, изменила условия
