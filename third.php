@@ -77,7 +77,7 @@ for ($i = 0; $i < count($fileArr); $i++) {
 }
 
 usort($fileArr, function($a, $b) {
-    return ($b['square']-$a['square']);
+    return ($b['square'] - $a['square']);
 });
 
 echo'<pre>', print_r($fileArr), '</pre>'; //можно использовать var_dump, но так более удобночитаемо и нет лишней информации
